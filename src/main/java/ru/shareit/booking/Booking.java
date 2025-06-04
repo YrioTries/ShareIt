@@ -1,5 +1,6 @@
 package ru.shareit.booking;
 
+import enums.Status;
 import lombok.Data;
 import ru.shareit.item.Item;
 import ru.shareit.user.User;
@@ -13,5 +14,5 @@ public class Booking {
     private LocalDateTime end;
     private Item item;
     private User booker;
-    private String status;
+    private Status status;
 }
