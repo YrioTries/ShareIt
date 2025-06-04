@@ -1,6 +1,7 @@
 package ru.shareit.item;
 
 import lombok.Data;
+import ru.shareit.request.ItemRequest;
 import ru.shareit.user.User;
 
 @Data
@@ -10,5 +11,5 @@ public class Item {
     private String description;
     private boolean available;
     private User owner;
-    private String request;
+    private ItemRequest request;
 }

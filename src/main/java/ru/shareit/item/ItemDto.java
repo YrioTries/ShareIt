@@ -1,5 +1,6 @@
 package ru.shareit.item;
 
+import ru.shareit.request.ItemRequest;
 import ru.shareit.user.User;
 
 public class ItemDto {
