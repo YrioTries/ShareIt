@@ -8,7 +8,7 @@ public class Item {
     private long id;
     private String name;
     private String description;
-    private String available;
+    private boolean available;
     private User owner;
     private String request;
 }
