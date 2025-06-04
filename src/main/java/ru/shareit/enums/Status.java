@@ -1,4 +1,4 @@
-package enums;
+package ru.shareit.enums;
 
 public enum Status {
     WAITING("WAITING"),

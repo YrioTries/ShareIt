@@ -1,6 +1,6 @@
 package ru.shareit.booking;
 
-import enums.Status;
+import ru.shareit.enums.Status;
 import lombok.Data;
 import ru.shareit.item.Item;
 import ru.shareit.user.User;
